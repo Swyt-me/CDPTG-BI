@@ -1,0 +1,39 @@
+{
+    "odata.metadata": "$metadata#Collection(Edm.ComplexType)",
+    "value": [
+        {
+            "PurchaseDeliveryNotes": {
+                "DocEntry": 49,
+                "DocNum": 1000049,
+                "CreationDate": "2023-08-29",
+                "CardCode": "VL-0005",
+                "CardName": "Common Project Trading DMCC",
+                "DocCurrency": "MAD",
+                "DocRate": 1.0,
+                "NumAtCard": "IM2022/009",
+                "Reference1": "1000049",
+                "Comments": "Based On Purchase Orders 1000016.\r\rExcess quantity zero value.",
+                "JournalMemo": "Goods Receipt PO - VL-0005"
+            },
+            "PurchaseDeliveryNotes/DocumentLines": {
+                "ItemCode": "01/EE7691/7-",
+                "ItemDescription": "ADVANTAGE BASE",
+                "ShipDate": "2022-06-08",
+                "Quantity": 25.0,
+                "Price": 1.0,
+                "PriceAfterVAT": 1.2,
+                "Currency": "MAD",
+                "WarehouseCode": "MAR01",
+                "Rate": 0.0,
+                "BarCode": "4061615483998",
+                "GrossPrice": 1.2,
+                "GrossTotal": 30.0,
+                "U_RRP": 0.0,
+                "U_Article": "01-EE7691",
+                "U_JumiaSKU": null,
+                "U_FOC": "No",
+                "UnitsOfMeasurment": 1.0
+            }
+        }
+    ]
+}

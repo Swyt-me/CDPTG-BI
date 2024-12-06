@@ -1,0 +1,39 @@
+{
+    "odata.metadata": "$metadata#Collection(Edm.ComplexType)",
+    "value": [
+        {
+            "PurchaseDeliveryNotes": {
+                "DocEntry": 48,
+                "DocNum": 1000048,
+                "CreationDate": "2023-08-25",
+                "CardCode": "VL-0005",
+                "CardName": "Common Project Trading DMCC",
+                "DocCurrency": "MAD",
+                "DocRate": 1.0,
+                "NumAtCard": null,
+                "Reference1": "1000048",
+                "Comments": "Based On Purchase Orders 1000015.",
+                "JournalMemo": "Goods Receipt PO - VL-0005"
+            },
+            "PurchaseDeliveryNotes/DocumentLines": {
+                "ItemCode": "01/GK8997/M",
+                "ItemDescription": "M 3S SJ TO PT",
+                "ShipDate": "2022-08-16",
+                "Quantity": 2.0,
+                "Price": 1.0,
+                "PriceAfterVAT": 1.2,
+                "Currency": "MAD",
+                "WarehouseCode": "MAR01",
+                "Rate": 0.0,
+                "BarCode": "4062065264892",
+                "GrossPrice": 1.2,
+                "GrossTotal": 2.4,
+                "U_RRP": null,
+                "U_Article": null,
+                "U_JumiaSKU": null,
+                "U_FOC": "No",
+                "UnitsOfMeasurment": 1.0
+            }
+        }
+    ]
+}

@@ -1,0 +1,73 @@
+{
+    "odata.metadata": "$metadata#Collection(Edm.ComplexType)",
+    "value": [
+        {
+            "PurchaseDeliveryNotes": {
+                "DocEntry": 4,
+                "DocNum": 1000004,
+                "CreationDate": "2024-03-27",
+                "CardCode": "VL-0002",
+                "CardName": "Common Project Trading DMCC",
+                "DocCurrency": "USD",
+                "DocRate": 150.0,
+                "NumAtCard": "Shipment2",
+                "Reference1": "1000004",
+                "Comments": "Based On Purchase Orders 1000002.",
+                "JournalMemo": "Goods Receipt PO - VL-0002"
+            },
+            "PurchaseDeliveryNotes/DocumentLines": {
+                "ItemCode": "01/IF7868/7-",
+                "ItemDescription": "DURAMO SL",
+                "ShipDate": "2023-10-25",
+                "Quantity": 4.0,
+                "Price": 24.59,
+                "PriceAfterVAT": 24.59,
+                "Currency": "USD",
+                "WarehouseCode": "01",
+                "Rate": 150.0,
+                "BarCode": "4066756067939",
+                "GrossPrice": 24.59,
+                "GrossTotal": 14754.0,
+                "U_RRP": null,
+                "U_Article": null,
+                "U_JumiaSKU": null,
+                "U_FOC": "No",
+                "UnitsOfMeasurment": 1.0
+            }
+        },
+        {
+            "PurchaseDeliveryNotes": {
+                "DocEntry": 4,
+                "DocNum": 1000004,
+                "CreationDate": "2024-03-27",
+                "CardCode": "VL-0002",
+                "CardName": "Common Project Trading DMCC",
+                "DocCurrency": "USD",
+                "DocRate": 150.0,
+                "NumAtCard": "Shipment2",
+                "Reference1": "1000004",
+                "Comments": "Based On Purchase Orders 1000002.",
+                "JournalMemo": "Goods Receipt PO - VL-0002"
+            },
+            "PurchaseDeliveryNotes/DocumentLines": {
+                "ItemCode": "01/IF7868/8-",
+                "ItemDescription": "DURAMO SL",
+                "ShipDate": "2023-10-25",
+                "Quantity": 1.0,
+                "Price": 24.59,
+                "PriceAfterVAT": 24.59,
+                "Currency": "USD",
+                "WarehouseCode": "01",
+                "Rate": 150.0,
+                "BarCode": "4066756067984",
+                "GrossPrice": 24.59,
+                "GrossTotal": 3688.5,
+                "U_RRP": null,
+                "U_Article": null,
+                "U_JumiaSKU": null,
+                "U_FOC": "No",
+                "UnitsOfMeasurment": 1.0
+            }
+        }
+    ]
+}

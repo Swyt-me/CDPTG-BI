@@ -1,0 +1,186 @@
+{
+	"info": {
+		"_postman_id": "712ef75d-5975-48d9-9643-4fbf1f922450",
+		"name": "Export API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "34578007"
+	},
+	"item": [
+		{
+			"name": "Login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"CompanyDB\": \"CP_NGA_UAT\",\r\n    \"Password\": \"Super@321\",\r\n    \"UserName\": \"manager\"\r\n}\r\n"
+				},
+				"url": {
+					"raw": "https://c20988hs01p01.cloudiax.com:50000/b1s/v1/Login/",
+					"protocol": "https",
+					"host": [
+						"c20988hs01p01",
+						"cloudiax",
+						"com"
+					],
+					"port": "50000",
+					"path": [
+						"b1s",
+						"v1",
+						"Login",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Orders",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Cookie",
+						"value": "B1SESSION=708d6590-7a3c-11ef-8000-fa163e6a32ef; ROUTEID=.node6;clxservice=40834453311.3450350304.1822273024",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Accept-Encoding",
+						"value": "gzip, deflate, br",
+						"type": "text"
+					},
+					{
+						"key": "Connection",
+						"value": "keep-alive",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://c20988hs01p01.cloudiax.com:50000/b1s/v1/Orders",
+					"protocol": "https",
+					"host": [
+						"c20988hs01p01",
+						"cloudiax",
+						"com"
+					],
+					"port": "50000",
+					"path": [
+						"b1s",
+						"v1",
+						"Orders"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get LandedCosts",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Cookie",
+						"value": "B1SESSION=708d6590-7a3c-11ef-8000-fa163e6a32ef; ROUTEID=.node6;clxservice=40834453311.3450350304.1822273024",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Accept-Encoding",
+						"value": "gzip, deflate, br",
+						"type": "text"
+					},
+					{
+						"key": "Connection",
+						"value": "keep-alive",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://c20988hs01p01.cloudiax.com:50000/b1s/v1/Orders",
+					"protocol": "https",
+					"host": [
+						"c20988hs01p01",
+						"cloudiax",
+						"com"
+					],
+					"port": "50000",
+					"path": [
+						"b1s",
+						"v1",
+						"Orders"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get PurchaseDeliveryNotes",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Cookie",
+						"value": "B1SESSION=708d6590-7a3c-11ef-8000-fa163e6a32ef; ROUTEID=.node6;clxservice=40834453311.3450350304.1822273024",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Accept-Encoding",
+						"value": "gzip, deflate, br",
+						"type": "text"
+					},
+					{
+						"key": "Connection",
+						"value": "keep-alive",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://c20988hs01p01.cloudiax.com:50000/b1s/v1/Orders",
+					"protocol": "https",
+					"host": [
+						"c20988hs01p01",
+						"cloudiax",
+						"com"
+					],
+					"port": "50000",
+					"path": [
+						"b1s",
+						"v1",
+						"Orders"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "logout",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}

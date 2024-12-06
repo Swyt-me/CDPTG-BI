@@ -1,0 +1,141 @@
+{
+    "odata.metadata": "$metadata#Collection(Edm.ComplexType)",
+    "value": [
+        {
+            "PurchaseDeliveryNotes": {
+                "DocEntry": 53,
+                "DocNum": 1000053,
+                "CreationDate": "2023-12-27",
+                "CardCode": "VL-0002",
+                "CardName": "adidas Morocco LLC",
+                "DocCurrency": "MAD",
+                "DocRate": 1.0,
+                "NumAtCard": null,
+                "Reference1": "1000053",
+                "Comments": "Based On Purchase Orders 1000018.",
+                "JournalMemo": "Goods Receipt PO - VL-0002"
+            },
+            "PurchaseDeliveryNotes/DocumentLines": {
+                "ItemCode": "01/656927/4",
+                "ItemDescription": "Tango Rosario",
+                "ShipDate": "2022-11-09",
+                "Quantity": 1.0,
+                "Price": 194.02,
+                "PriceAfterVAT": 194.02,
+                "Currency": "MAD",
+                "WarehouseCode": "MAR01",
+                "Rate": 0.0,
+                "BarCode": "4044426557263",
+                "GrossPrice": 194.02,
+                "GrossTotal": 194.02,
+                "U_RRP": null,
+                "U_Article": null,
+                "U_JumiaSKU": null,
+                "U_FOC": "No",
+                "UnitsOfMeasurment": 1.0
+            }
+        },
+        {
+            "PurchaseDeliveryNotes": {
+                "DocEntry": 53,
+                "DocNum": 1000053,
+                "CreationDate": "2023-12-27",
+                "CardCode": "VL-0002",
+                "CardName": "adidas Morocco LLC",
+                "DocCurrency": "MAD",
+                "DocRate": 1.0,
+                "NumAtCard": null,
+                "Reference1": "1000053",
+                "Comments": "Based On Purchase Orders 1000018.",
+                "JournalMemo": "Goods Receipt PO - VL-0002"
+            },
+            "PurchaseDeliveryNotes/DocumentLines": {
+                "ItemCode": "01/GE6137/XL",
+                "ItemDescription": "Low Cut 3PP",
+                "ShipDate": "2022-11-09",
+                "Quantity": 1.0,
+                "Price": 194.02,
+                "PriceAfterVAT": 194.02,
+                "Currency": "MAD",
+                "WarehouseCode": "MAR01",
+                "Rate": 0.0,
+                "BarCode": "4061612251187",
+                "GrossPrice": 194.02,
+                "GrossTotal": 194.02,
+                "U_RRP": null,
+                "U_Article": null,
+                "U_JumiaSKU": null,
+                "U_FOC": "No",
+                "UnitsOfMeasurment": 1.0
+            }
+        },
+        {
+            "PurchaseDeliveryNotes": {
+                "DocEntry": 53,
+                "DocNum": 1000053,
+                "CreationDate": "2023-12-27",
+                "CardCode": "VL-0002",
+                "CardName": "adidas Morocco LLC",
+                "DocCurrency": "MAD",
+                "DocRate": 1.0,
+                "NumAtCard": null,
+                "Reference1": "1000053",
+                "Comments": "Based On Purchase Orders 1000018.",
+                "JournalMemo": "Goods Receipt PO - VL-0002"
+            },
+            "PurchaseDeliveryNotes/DocumentLines": {
+                "ItemCode": "01/GN3967/122",
+                "ItemDescription": "B FT TS",
+                "ShipDate": "2022-11-09",
+                "Quantity": 1.0,
+                "Price": 194.02,
+                "PriceAfterVAT": 194.02,
+                "Currency": "MAD",
+                "WarehouseCode": "MAR01",
+                "Rate": 0.0,
+                "BarCode": "4064044932037",
+                "GrossPrice": 194.02,
+                "GrossTotal": 194.02,
+                "U_RRP": null,
+                "U_Article": null,
+                "U_JumiaSKU": null,
+                "U_FOC": "No",
+                "UnitsOfMeasurment": 1.0
+            }
+        },
+        {
+            "PurchaseDeliveryNotes": {
+                "DocEntry": 53,
+                "DocNum": 1000053,
+                "CreationDate": "2023-12-27",
+                "CardCode": "VL-0002",
+                "CardName": "adidas Morocco LLC",
+                "DocCurrency": "MAD",
+                "DocRate": 1.0,
+                "NumAtCard": null,
+                "Reference1": "1000053",
+                "Comments": "Based On Purchase Orders 1000018.",
+                "JournalMemo": "Goods Receipt PO - VL-0002"
+            },
+            "PurchaseDeliveryNotes/DocumentLines": {
+                "ItemCode": "01/GN3987/116",
+                "ItemDescription": "B FT TS",
+                "ShipDate": "2022-11-09",
+                "Quantity": 1.0,
+                "Price": 194.02,
+                "PriceAfterVAT": 194.02,
+                "Currency": "MAD",
+                "WarehouseCode": "MAR01",
+                "Rate": 0.0,
+                "BarCode": "4064044932341",
+                "GrossPrice": 194.02,
+                "GrossTotal": 194.02,
+                "U_RRP": null,
+                "U_Article": null,
+                "U_JumiaSKU": null,
+                "U_FOC": "No",
+                "UnitsOfMeasurment": 1.0
+            }
+        }
+    ]
+}

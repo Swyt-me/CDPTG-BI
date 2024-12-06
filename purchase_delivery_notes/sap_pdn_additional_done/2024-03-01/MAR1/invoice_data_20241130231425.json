@@ -1,0 +1,141 @@
+{
+    "odata.metadata": "$metadata#Collection(Edm.ComplexType)",
+    "value": [
+        {
+            "PurchaseDeliveryNotes": {
+                "DocEntry": 59,
+                "DocNum": 1000059,
+                "CreationDate": "2024-03-01",
+                "CardCode": "VL-0009",
+                "CardName": "Hudson Morocco",
+                "DocCurrency": "MAD",
+                "DocRate": 1.0,
+                "NumAtCard": "Nike Shipment1",
+                "Reference1": "1000059",
+                "Comments": "Based On Purchase Orders 1000022.",
+                "JournalMemo": "Goods Receipt PO - VL-0009"
+            },
+            "PurchaseDeliveryNotes/DocumentLines": {
+                "ItemCode": "03/CZ5478-002/11",
+                "ItemDescription": "NIKE VICTORY SHOWER SLIDE",
+                "ShipDate": "2024-01-30",
+                "Quantity": 6.0,
+                "Price": 159.96,
+                "PriceAfterVAT": 191.952,
+                "Currency": "MAD",
+                "WarehouseCode": "MAR\\MJ01",
+                "Rate": 0.0,
+                "BarCode": "194501091992",
+                "GrossPrice": 191.952,
+                "GrossTotal": 1151.712,
+                "U_RRP": 0.0,
+                "U_Article": "03-CZ5478-002",
+                "U_JumiaSKU": null,
+                "U_FOC": "No",
+                "UnitsOfMeasurment": 1.0
+            }
+        },
+        {
+            "PurchaseDeliveryNotes": {
+                "DocEntry": 59,
+                "DocNum": 1000059,
+                "CreationDate": "2024-03-01",
+                "CardCode": "VL-0009",
+                "CardName": "Hudson Morocco",
+                "DocCurrency": "MAD",
+                "DocRate": 1.0,
+                "NumAtCard": "Nike Shipment1",
+                "Reference1": "1000059",
+                "Comments": "Based On Purchase Orders 1000022.",
+                "JournalMemo": "Goods Receipt PO - VL-0009"
+            },
+            "PurchaseDeliveryNotes/DocumentLines": {
+                "ItemCode": "03/CZ5478-002/12",
+                "ItemDescription": "NIKE VICTORY SHOWER SLIDE",
+                "ShipDate": "2024-01-30",
+                "Quantity": 6.0,
+                "Price": 159.96,
+                "PriceAfterVAT": 191.952,
+                "Currency": "MAD",
+                "WarehouseCode": "MAR\\MJ01",
+                "Rate": 0.0,
+                "BarCode": "194501092005",
+                "GrossPrice": 191.952,
+                "GrossTotal": 1151.712,
+                "U_RRP": 0.0,
+                "U_Article": "03-CZ5478-002",
+                "U_JumiaSKU": null,
+                "U_FOC": "No",
+                "UnitsOfMeasurment": 1.0
+            }
+        },
+        {
+            "PurchaseDeliveryNotes": {
+                "DocEntry": 59,
+                "DocNum": 1000059,
+                "CreationDate": "2024-03-01",
+                "CardCode": "VL-0009",
+                "CardName": "Hudson Morocco",
+                "DocCurrency": "MAD",
+                "DocRate": 1.0,
+                "NumAtCard": "Nike Shipment1",
+                "Reference1": "1000059",
+                "Comments": "Based On Purchase Orders 1000022.",
+                "JournalMemo": "Goods Receipt PO - VL-0009"
+            },
+            "PurchaseDeliveryNotes/DocumentLines": {
+                "ItemCode": "03/DA2778-009/6-",
+                "ItemDescription": "NIKE STAR RUNNER 3 (TDV)",
+                "ShipDate": "2024-01-30",
+                "Quantity": 6.0,
+                "Price": 210.38,
+                "PriceAfterVAT": 252.456,
+                "Currency": "MAD",
+                "WarehouseCode": "MAR\\MJ01",
+                "Rate": 0.0,
+                "BarCode": "195870305956",
+                "GrossPrice": 252.456,
+                "GrossTotal": 1514.736,
+                "U_RRP": 0.0,
+                "U_Article": "03-DA2778-009",
+                "U_JumiaSKU": null,
+                "U_FOC": "No",
+                "UnitsOfMeasurment": 1.0
+            }
+        },
+        {
+            "PurchaseDeliveryNotes": {
+                "DocEntry": 59,
+                "DocNum": 1000059,
+                "CreationDate": "2024-03-01",
+                "CardCode": "VL-0009",
+                "CardName": "Hudson Morocco",
+                "DocCurrency": "MAD",
+                "DocRate": 1.0,
+                "NumAtCard": "Nike Shipment1",
+                "Reference1": "1000059",
+                "Comments": "Based On Purchase Orders 1000022.",
+                "JournalMemo": "Goods Receipt PO - VL-0009"
+            },
+            "PurchaseDeliveryNotes/DocumentLines": {
+                "ItemCode": "03/DA2778-009/7-",
+                "ItemDescription": "NIKE STAR RUNNER 3 (TDV)",
+                "ShipDate": "2024-01-30",
+                "Quantity": 5.0,
+                "Price": 210.38,
+                "PriceAfterVAT": 252.456,
+                "Currency": "MAD",
+                "WarehouseCode": "MAR\\MJ01",
+                "Rate": 0.0,
+                "BarCode": "195870305963",
+                "GrossPrice": 252.456,
+                "GrossTotal": 1262.28,
+                "U_RRP": 0.0,
+                "U_Article": "03-DA2778-009",
+                "U_JumiaSKU": null,
+                "U_FOC": "No",
+                "UnitsOfMeasurment": 1.0
+            }
+        }
+    ]
+}

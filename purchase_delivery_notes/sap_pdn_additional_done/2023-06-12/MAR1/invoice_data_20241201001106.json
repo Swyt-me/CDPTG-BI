@@ -1,0 +1,39 @@
+{
+    "odata.metadata": "$metadata#Collection(Edm.ComplexType)",
+    "value": [
+        {
+            "PurchaseDeliveryNotes": {
+                "DocEntry": 17,
+                "DocNum": 1000017,
+                "CreationDate": "2023-06-12",
+                "CardCode": "VL-0002",
+                "CardName": "adidas Morocco LLC",
+                "DocCurrency": "MAD",
+                "DocRate": 1.0,
+                "NumAtCard": "5475129154",
+                "Reference1": "1000017",
+                "Comments": "Based On Purchase Orders 1000006.",
+                "JournalMemo": "Goods Receipt PO - VL-0002"
+            },
+            "PurchaseDeliveryNotes/DocumentLines": {
+                "ItemCode": "01/HD2212/XS",
+                "ItemDescription": "HC 3S QUART 3pp",
+                "ShipDate": "2022-09-27",
+                "Quantity": 15.0,
+                "Price": 66.66,
+                "PriceAfterVAT": 79.992,
+                "Currency": "MAD",
+                "WarehouseCode": "MAR01",
+                "Rate": 0.0,
+                "BarCode": "4065424318342",
+                "GrossPrice": 79.992,
+                "GrossTotal": 1199.88,
+                "U_RRP": 0.0,
+                "U_Article": "01-HD2212",
+                "U_JumiaSKU": null,
+                "U_FOC": "No",
+                "UnitsOfMeasurment": 1.0
+            }
+        }
+    ]
+}

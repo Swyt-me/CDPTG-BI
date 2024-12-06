@@ -1,0 +1,243 @@
+{
+    "odata.metadata": "$metadata#Collection(Edm.ComplexType)",
+    "value": [
+        {
+            "PurchaseDeliveryNotes": {
+                "DocEntry": 40,
+                "DocNum": 1000040,
+                "CreationDate": "2023-08-03",
+                "CardCode": "VL-0002",
+                "CardName": "adidas Morocco LLC",
+                "DocCurrency": "MAD",
+                "DocRate": 1.0,
+                "NumAtCard": "5470024914",
+                "Reference1": "1000040",
+                "Comments": "Based On Purchase Orders 1000007.",
+                "JournalMemo": "Goods Receipt PO - VL-0002"
+            },
+            "PurchaseDeliveryNotes/DocumentLines": {
+                "ItemCode": "01/GZ3443/4-",
+                "ItemDescription": "Tensaur Run 2.0 CF K",
+                "ShipDate": "2022-11-09",
+                "Quantity": 10.0,
+                "Price": 186.28,
+                "PriceAfterVAT": 223.536,
+                "Currency": "MAD",
+                "WarehouseCode": "MAR01",
+                "Rate": 0.0,
+                "BarCode": "4065418587358",
+                "GrossPrice": 223.536,
+                "GrossTotal": 2235.36,
+                "U_RRP": 0.0,
+                "U_Article": "01-GZ3443",
+                "U_JumiaSKU": null,
+                "U_FOC": "No",
+                "UnitsOfMeasurment": 1.0
+            }
+        },
+        {
+            "PurchaseDeliveryNotes": {
+                "DocEntry": 40,
+                "DocNum": 1000040,
+                "CreationDate": "2023-08-03",
+                "CardCode": "VL-0002",
+                "CardName": "adidas Morocco LLC",
+                "DocCurrency": "MAD",
+                "DocRate": 1.0,
+                "NumAtCard": "5470024914",
+                "Reference1": "1000040",
+                "Comments": "Based On Purchase Orders 1000007.",
+                "JournalMemo": "Goods Receipt PO - VL-0002"
+            },
+            "PurchaseDeliveryNotes/DocumentLines": {
+                "ItemCode": "01/GZ3443/1",
+                "ItemDescription": "Tensaur Run 2.0 CF K",
+                "ShipDate": "2022-11-09",
+                "Quantity": 35.0,
+                "Price": 186.28,
+                "PriceAfterVAT": 223.536,
+                "Currency": "MAD",
+                "WarehouseCode": "MAR01",
+                "Rate": 0.0,
+                "BarCode": "4065418587396",
+                "GrossPrice": 223.536,
+                "GrossTotal": 7823.76,
+                "U_RRP": 0.0,
+                "U_Article": "01-GZ3443",
+                "U_JumiaSKU": null,
+                "U_FOC": "No",
+                "UnitsOfMeasurment": 1.0
+            }
+        },
+        {
+            "PurchaseDeliveryNotes": {
+                "DocEntry": 40,
+                "DocNum": 1000040,
+                "CreationDate": "2023-08-03",
+                "CardCode": "VL-0002",
+                "CardName": "adidas Morocco LLC",
+                "DocCurrency": "MAD",
+                "DocRate": 1.0,
+                "NumAtCard": "5470024914",
+                "Reference1": "1000040",
+                "Comments": "Based On Purchase Orders 1000007.",
+                "JournalMemo": "Goods Receipt PO - VL-0002"
+            },
+            "PurchaseDeliveryNotes/DocumentLines": {
+                "ItemCode": "01/GZ3443/1",
+                "ItemDescription": "Tensaur Run 2.0 CF K",
+                "ShipDate": "2022-11-09",
+                "Quantity": 40.0,
+                "Price": 186.28,
+                "PriceAfterVAT": 223.536,
+                "Currency": "MAD",
+                "WarehouseCode": "MAR01",
+                "Rate": 0.0,
+                "BarCode": "4065418587396",
+                "GrossPrice": 223.536,
+                "GrossTotal": 8941.44,
+                "U_RRP": 0.0,
+                "U_Article": "01-GZ3443",
+                "U_JumiaSKU": null,
+                "U_FOC": "No",
+                "UnitsOfMeasurment": 1.0
+            }
+        },
+        {
+            "PurchaseDeliveryNotes": {
+                "DocEntry": 40,
+                "DocNum": 1000040,
+                "CreationDate": "2023-08-03",
+                "CardCode": "VL-0002",
+                "CardName": "adidas Morocco LLC",
+                "DocCurrency": "MAD",
+                "DocRate": 1.0,
+                "NumAtCard": "5470024914",
+                "Reference1": "1000040",
+                "Comments": "Based On Purchase Orders 1000007.",
+                "JournalMemo": "Goods Receipt PO - VL-0002"
+            },
+            "PurchaseDeliveryNotes/DocumentLines": {
+                "ItemCode": "01/GY6347/9",
+                "ItemDescription": "SHOWTHEWAY 2.0",
+                "ShipDate": "2022-11-09",
+                "Quantity": 30.0,
+                "Price": 309.81,
+                "PriceAfterVAT": 371.772,
+                "Currency": "MAD",
+                "WarehouseCode": "MAR01",
+                "Rate": 0.0,
+                "BarCode": "4065418530682",
+                "GrossPrice": 371.772,
+                "GrossTotal": 11153.16,
+                "U_RRP": 0.0,
+                "U_Article": "01-GY6347",
+                "U_JumiaSKU": null,
+                "U_FOC": "No",
+                "UnitsOfMeasurment": 1.0
+            }
+        },
+        {
+            "PurchaseDeliveryNotes": {
+                "DocEntry": 40,
+                "DocNum": 1000040,
+                "CreationDate": "2023-08-03",
+                "CardCode": "VL-0002",
+                "CardName": "adidas Morocco LLC",
+                "DocCurrency": "MAD",
+                "DocRate": 1.0,
+                "NumAtCard": "5470024914",
+                "Reference1": "1000040",
+                "Comments": "Based On Purchase Orders 1000007.",
+                "JournalMemo": "Goods Receipt PO - VL-0002"
+            },
+            "PurchaseDeliveryNotes/DocumentLines": {
+                "ItemCode": "01/GY6347/9",
+                "ItemDescription": "SHOWTHEWAY 2.0",
+                "ShipDate": "2022-11-09",
+                "Quantity": 60.0,
+                "Price": 309.81,
+                "PriceAfterVAT": 371.772,
+                "Currency": "MAD",
+                "WarehouseCode": "MAR01",
+                "Rate": 0.0,
+                "BarCode": "4065418530682",
+                "GrossPrice": 371.772,
+                "GrossTotal": 22306.32,
+                "U_RRP": 0.0,
+                "U_Article": "01-GY6347",
+                "U_JumiaSKU": null,
+                "U_FOC": "No",
+                "UnitsOfMeasurment": 1.0
+            }
+        },
+        {
+            "PurchaseDeliveryNotes": {
+                "DocEntry": 40,
+                "DocNum": 1000040,
+                "CreationDate": "2023-08-03",
+                "CardCode": "VL-0002",
+                "CardName": "adidas Morocco LLC",
+                "DocCurrency": "MAD",
+                "DocRate": 1.0,
+                "NumAtCard": "5470024914",
+                "Reference1": "1000040",
+                "Comments": "Based On Purchase Orders 1000007.",
+                "JournalMemo": "Goods Receipt PO - VL-0002"
+            },
+            "PurchaseDeliveryNotes/DocumentLines": {
+                "ItemCode": "01/GY6347/7-",
+                "ItemDescription": "SHOWTHEWAY 2.0",
+                "ShipDate": "2022-11-09",
+                "Quantity": 40.0,
+                "Price": 309.81,
+                "PriceAfterVAT": 371.772,
+                "Currency": "MAD",
+                "WarehouseCode": "MAR01",
+                "Rate": 0.0,
+                "BarCode": "4065418534314",
+                "GrossPrice": 371.772,
+                "GrossTotal": 14870.88,
+                "U_RRP": 0.0,
+                "U_Article": "01-GY6347",
+                "U_JumiaSKU": null,
+                "U_FOC": "No",
+                "UnitsOfMeasurment": 1.0
+            }
+        },
+        {
+            "PurchaseDeliveryNotes": {
+                "DocEntry": 40,
+                "DocNum": 1000040,
+                "CreationDate": "2023-08-03",
+                "CardCode": "VL-0002",
+                "CardName": "adidas Morocco LLC",
+                "DocCurrency": "MAD",
+                "DocRate": 1.0,
+                "NumAtCard": "5470024914",
+                "Reference1": "1000040",
+                "Comments": "Based On Purchase Orders 1000007.",
+                "JournalMemo": "Goods Receipt PO - VL-0002"
+            },
+            "PurchaseDeliveryNotes/DocumentLines": {
+                "ItemCode": "01/GY6347/7-",
+                "ItemDescription": "SHOWTHEWAY 2.0",
+                "ShipDate": "2022-11-09",
+                "Quantity": 20.0,
+                "Price": 309.81,
+                "PriceAfterVAT": 371.772,
+                "Currency": "MAD",
+                "WarehouseCode": "MAR01",
+                "Rate": 0.0,
+                "BarCode": "4065418534314",
+                "GrossPrice": 371.772,
+                "GrossTotal": 7435.44,
+                "U_RRP": 0.0,
+                "U_Article": "01-GY6347",
+                "U_JumiaSKU": null,
+                "U_FOC": "No",
+                "UnitsOfMeasurment": 1.0
+            }
+        }
+    ]
+}

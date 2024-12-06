@@ -1,0 +1,209 @@
+{
+    "odata.metadata": "$metadata#Collection(Edm.ComplexType)",
+    "value": [
+        {
+            "PurchaseDeliveryNotes": {
+                "DocEntry": 5,
+                "DocNum": 1000005,
+                "CreationDate": "2023-05-26",
+                "CardCode": "VL-0002",
+                "CardName": "adidas Morocco LLC",
+                "DocCurrency": "MAD",
+                "DocRate": 1.0,
+                "NumAtCard": "5475126342",
+                "Reference1": "1000005",
+                "Comments": "Based On Purchase Orders 1000003.",
+                "JournalMemo": "Goods Receipt PO - VL-0002"
+            },
+            "PurchaseDeliveryNotes/DocumentLines": {
+                "ItemCode": "01/GV5295/S",
+                "ItemDescription": "M FEELCOZY SWT",
+                "ShipDate": "2022-08-29",
+                "Quantity": 60.0,
+                "Price": 215.6877,
+                "PriceAfterVAT": 258.8252,
+                "Currency": "MAD",
+                "WarehouseCode": "MAR01",
+                "Rate": 0.0,
+                "BarCode": "4064054457803",
+                "GrossPrice": 258.8252,
+                "GrossTotal": 15529.512,
+                "U_RRP": 0.0,
+                "U_Article": "01-GV5295",
+                "U_JumiaSKU": null,
+                "U_FOC": "No",
+                "UnitsOfMeasurment": 1.0
+            }
+        },
+        {
+            "PurchaseDeliveryNotes": {
+                "DocEntry": 5,
+                "DocNum": 1000005,
+                "CreationDate": "2023-05-26",
+                "CardCode": "VL-0002",
+                "CardName": "adidas Morocco LLC",
+                "DocCurrency": "MAD",
+                "DocRate": 1.0,
+                "NumAtCard": "5475126342",
+                "Reference1": "1000005",
+                "Comments": "Based On Purchase Orders 1000003.",
+                "JournalMemo": "Goods Receipt PO - VL-0002"
+            },
+            "PurchaseDeliveryNotes/DocumentLines": {
+                "ItemCode": "01/GV5295/M",
+                "ItemDescription": "M FEELCOZY SWT",
+                "ShipDate": "2022-08-29",
+                "Quantity": 80.0,
+                "Price": 215.688,
+                "PriceAfterVAT": 258.8256,
+                "Currency": "MAD",
+                "WarehouseCode": "MAR01",
+                "Rate": 0.0,
+                "BarCode": "4064054457872",
+                "GrossPrice": 258.8256,
+                "GrossTotal": 20706.048,
+                "U_RRP": 0.0,
+                "U_Article": "01-GV5295",
+                "U_JumiaSKU": null,
+                "U_FOC": "No",
+                "UnitsOfMeasurment": 1.0
+            }
+        },
+        {
+            "PurchaseDeliveryNotes": {
+                "DocEntry": 5,
+                "DocNum": 1000005,
+                "CreationDate": "2023-05-26",
+                "CardCode": "VL-0002",
+                "CardName": "adidas Morocco LLC",
+                "DocCurrency": "MAD",
+                "DocRate": 1.0,
+                "NumAtCard": "5475126342",
+                "Reference1": "1000005",
+                "Comments": "Based On Purchase Orders 1000003.",
+                "JournalMemo": "Goods Receipt PO - VL-0002"
+            },
+            "PurchaseDeliveryNotes/DocumentLines": {
+                "ItemCode": "01/GV5295/XL",
+                "ItemDescription": "M FEELCOZY SWT",
+                "ShipDate": "2022-08-29",
+                "Quantity": 10.0,
+                "Price": 215.69,
+                "PriceAfterVAT": 258.828,
+                "Currency": "MAD",
+                "WarehouseCode": "MAR01",
+                "Rate": 0.0,
+                "BarCode": "4064054461503",
+                "GrossPrice": 258.828,
+                "GrossTotal": 2588.28,
+                "U_RRP": 0.0,
+                "U_Article": "01-GV5295",
+                "U_JumiaSKU": null,
+                "U_FOC": "No",
+                "UnitsOfMeasurment": 1.0
+            }
+        },
+        {
+            "PurchaseDeliveryNotes": {
+                "DocEntry": 5,
+                "DocNum": 1000005,
+                "CreationDate": "2023-05-26",
+                "CardCode": "VL-0002",
+                "CardName": "adidas Morocco LLC",
+                "DocCurrency": "MAD",
+                "DocRate": 1.0,
+                "NumAtCard": "5475126342",
+                "Reference1": "1000005",
+                "Comments": "Based On Purchase Orders 1000003.",
+                "JournalMemo": "Goods Receipt PO - VL-0002"
+            },
+            "PurchaseDeliveryNotes/DocumentLines": {
+                "ItemCode": "01/GV5295/XS",
+                "ItemDescription": "M FEELCOZY SWT",
+                "ShipDate": "2022-08-29",
+                "Quantity": 10.0,
+                "Price": 215.69,
+                "PriceAfterVAT": 258.828,
+                "Currency": "MAD",
+                "WarehouseCode": "MAR01",
+                "Rate": 0.0,
+                "BarCode": "4064054461626",
+                "GrossPrice": 258.828,
+                "GrossTotal": 2588.28,
+                "U_RRP": 0.0,
+                "U_Article": "01-GV5295",
+                "U_JumiaSKU": null,
+                "U_FOC": "No",
+                "UnitsOfMeasurment": 1.0
+            }
+        },
+        {
+            "PurchaseDeliveryNotes": {
+                "DocEntry": 6,
+                "DocNum": 1000006,
+                "CreationDate": "2023-05-26",
+                "CardCode": "VL-0002",
+                "CardName": "adidas Morocco LLC",
+                "DocCurrency": "MAD",
+                "DocRate": 1.0,
+                "NumAtCard": "5475126847",
+                "Reference1": "1000006",
+                "Comments": "Based On Purchase Orders 1000003.",
+                "JournalMemo": "Goods Receipt PO - VL-0002"
+            },
+            "PurchaseDeliveryNotes/DocumentLines": {
+                "ItemCode": "01/GE1206/NS",
+                "ItemDescription": "DAILY BP II",
+                "ShipDate": "2022-08-29",
+                "Quantity": 1500.0,
+                "Price": 107.848,
+                "PriceAfterVAT": 129.4176,
+                "Currency": "MAD",
+                "WarehouseCode": "MAR01",
+                "Rate": 0.0,
+                "BarCode": "4061612227908",
+                "GrossPrice": 129.4176,
+                "GrossTotal": 194126.4,
+                "U_RRP": 0.0,
+                "U_Article": "01-GE1206",
+                "U_JumiaSKU": null,
+                "U_FOC": "No",
+                "UnitsOfMeasurment": 1.0
+            }
+        },
+        {
+            "PurchaseDeliveryNotes": {
+                "DocEntry": 6,
+                "DocNum": 1000006,
+                "CreationDate": "2023-05-26",
+                "CardCode": "VL-0002",
+                "CardName": "adidas Morocco LLC",
+                "DocCurrency": "MAD",
+                "DocRate": 1.0,
+                "NumAtCard": "5475126847",
+                "Reference1": "1000006",
+                "Comments": "Based On Purchase Orders 1000003.",
+                "JournalMemo": "Goods Receipt PO - VL-0002"
+            },
+            "PurchaseDeliveryNotes/DocumentLines": {
+                "ItemCode": "01/GN2014/NS",
+                "ItemDescription": "LINEAR BP",
+                "ShipDate": "2022-08-29",
+                "Quantity": 1000.0,
+                "Price": 137.256,
+                "PriceAfterVAT": 164.7072,
+                "Currency": "MAD",
+                "WarehouseCode": "MAR01",
+                "Rate": 0.0,
+                "BarCode": "4064044723918",
+                "GrossPrice": 164.7072,
+                "GrossTotal": 164707.2,
+                "U_RRP": 0.0,
+                "U_Article": "01-GN2014",
+                "U_JumiaSKU": null,
+                "U_FOC": "No",
+                "UnitsOfMeasurment": 1.0
+            }
+        }
+    ]
+}

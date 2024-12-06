@@ -1,0 +1,73 @@
+{
+    "odata.metadata": "$metadata#Collection(Edm.ComplexType)",
+    "value": [
+        {
+            "PurchaseDeliveryNotes": {
+                "DocEntry": 54,
+                "DocNum": 1000054,
+                "CreationDate": "2024-02-15",
+                "CardCode": "VL-0005",
+                "CardName": "Common Project Trading DMCC",
+                "DocCurrency": "EUR",
+                "DocRate": 11.0,
+                "NumAtCard": "1",
+                "Reference1": "1000054",
+                "Comments": "Based On Purchase Orders 1000020.",
+                "JournalMemo": "Goods Receipt PO - VL-0005"
+            },
+            "PurchaseDeliveryNotes/DocumentLines": {
+                "ItemCode": "02/136606PACIFICO/33",
+                "ItemDescription": "1915 BASKET TIRAS LONA",
+                "ShipDate": "2023-11-02",
+                "Quantity": 2.0,
+                "Price": 16.8,
+                "PriceAfterVAT": 16.8,
+                "Currency": "EUR",
+                "WarehouseCode": "MAR01",
+                "Rate": 11.0,
+                "BarCode": "8433101816461",
+                "GrossPrice": 16.8,
+                "GrossTotal": 369.6,
+                "U_RRP": 0.0,
+                "U_Article": "02-136606pacifico",
+                "U_JumiaSKU": null,
+                "U_FOC": "No",
+                "UnitsOfMeasurment": 1.0
+            }
+        },
+        {
+            "PurchaseDeliveryNotes": {
+                "DocEntry": 54,
+                "DocNum": 1000054,
+                "CreationDate": "2024-02-15",
+                "CardCode": "VL-0005",
+                "CardName": "Common Project Trading DMCC",
+                "DocCurrency": "EUR",
+                "DocRate": 11.0,
+                "NumAtCard": "1",
+                "Reference1": "1000054",
+                "Comments": "Based On Purchase Orders 1000020.",
+                "JournalMemo": "Goods Receipt PO - VL-0005"
+            },
+            "PurchaseDeliveryNotes/DocumentLines": {
+                "ItemCode": "02/136606PACIFICO/34",
+                "ItemDescription": "1915 BASKET TIRAS LONA",
+                "ShipDate": "2023-11-02",
+                "Quantity": 2.0,
+                "Price": 16.8,
+                "PriceAfterVAT": 16.8,
+                "Currency": "EUR",
+                "WarehouseCode": "MAR01",
+                "Rate": 11.0,
+                "BarCode": "8433101816478",
+                "GrossPrice": 16.8,
+                "GrossTotal": 369.6,
+                "U_RRP": 0.0,
+                "U_Article": "02-136606pacifico",
+                "U_JumiaSKU": null,
+                "U_FOC": "No",
+                "UnitsOfMeasurment": 1.0
+            }
+        }
+    ]
+}

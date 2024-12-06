@@ -1,0 +1,39 @@
+{
+    "odata.metadata": "$metadata#Collection(Edm.ComplexType)",
+    "value": [
+        {
+            "PurchaseDeliveryNotes": {
+                "DocEntry": 63,
+                "DocNum": 1000063,
+                "CreationDate": "2024-03-08",
+                "CardCode": "VL-0005",
+                "CardName": "Common Project Trading DMCC",
+                "DocCurrency": "USD",
+                "DocRate": 10.0,
+                "NumAtCard": "Reebok Shipment1",
+                "Reference1": "1000063",
+                "Comments": "Based On Purchase Orders 1000025.",
+                "JournalMemo": "Goods Receipt PO - VL-0005"
+            },
+            "PurchaseDeliveryNotes/DocumentLines": {
+                "ItemCode": "07/Q46291/9",
+                "ItemDescription": "REEBOK ROYAL TECHQUE T",
+                "ShipDate": "2023-10-06",
+                "Quantity": 1.0,
+                "Price": 21.79,
+                "PriceAfterVAT": 21.79,
+                "Currency": "USD",
+                "WarehouseCode": "MAR\\MJ01",
+                "Rate": 10.0,
+                "BarCode": "4064049320839",
+                "GrossPrice": 21.79,
+                "GrossTotal": 217.9,
+                "U_RRP": 0.0,
+                "U_Article": "07-Q46291",
+                "U_JumiaSKU": null,
+                "U_FOC": "No",
+                "UnitsOfMeasurment": 1.0
+            }
+        }
+    ]
+}

@@ -1,0 +1,243 @@
+{
+    "odata.metadata": "$metadata#Collection(Edm.ComplexType)",
+    "value": [
+        {
+            "PurchaseDeliveryNotes": {
+                "DocEntry": 39,
+                "DocNum": 1000039,
+                "CreationDate": "2023-06-14",
+                "CardCode": "VL-0005",
+                "CardName": "Common Project Trading DMCC",
+                "DocCurrency": "MAD",
+                "DocRate": 1.0,
+                "NumAtCard": "IM2022/007",
+                "Reference1": "1000039",
+                "Comments": "Based On Purchase Orders 1000008.",
+                "JournalMemo": "Goods Receipt PO - VL-0005"
+            },
+            "PurchaseDeliveryNotes/DocumentLines": {
+                "ItemCode": "01/EF0211/5-",
+                "ItemDescription": "ADVANTAGE K",
+                "ShipDate": "2022-08-16",
+                "Quantity": 17.0,
+                "Price": 158.0,
+                "PriceAfterVAT": 189.6,
+                "Currency": "MAD",
+                "WarehouseCode": "MAR01",
+                "Rate": 0.0,
+                "BarCode": "4061622802195",
+                "GrossPrice": 189.6,
+                "GrossTotal": 3223.2,
+                "U_RRP": 0.0,
+                "U_Article": "01-EF0211",
+                "U_JumiaSKU": null,
+                "U_FOC": "No",
+                "UnitsOfMeasurment": 1.0
+            }
+        },
+        {
+            "PurchaseDeliveryNotes": {
+                "DocEntry": 39,
+                "DocNum": 1000039,
+                "CreationDate": "2023-06-14",
+                "CardCode": "VL-0005",
+                "CardName": "Common Project Trading DMCC",
+                "DocCurrency": "MAD",
+                "DocRate": 1.0,
+                "NumAtCard": "IM2022/007",
+                "Reference1": "1000039",
+                "Comments": "Based On Purchase Orders 1000008.",
+                "JournalMemo": "Goods Receipt PO - VL-0005"
+            },
+            "PurchaseDeliveryNotes/DocumentLines": {
+                "ItemCode": "01/EF0211/6",
+                "ItemDescription": "ADVANTAGE K",
+                "ShipDate": "2022-08-16",
+                "Quantity": 2.0,
+                "Price": 158.0,
+                "PriceAfterVAT": 189.6,
+                "Currency": "MAD",
+                "WarehouseCode": "MAR01",
+                "Rate": 0.0,
+                "BarCode": "4061622806315",
+                "GrossPrice": 189.6,
+                "GrossTotal": 379.2,
+                "U_RRP": 0.0,
+                "U_Article": "01-EF0211",
+                "U_JumiaSKU": null,
+                "U_FOC": "No",
+                "UnitsOfMeasurment": 1.0
+            }
+        },
+        {
+            "PurchaseDeliveryNotes": {
+                "DocEntry": 39,
+                "DocNum": 1000039,
+                "CreationDate": "2023-06-14",
+                "CardCode": "VL-0005",
+                "CardName": "Common Project Trading DMCC",
+                "DocCurrency": "MAD",
+                "DocRate": 1.0,
+                "NumAtCard": "IM2022/007",
+                "Reference1": "1000039",
+                "Comments": "Based On Purchase Orders 1000008.",
+                "JournalMemo": "Goods Receipt PO - VL-0005"
+            },
+            "PurchaseDeliveryNotes/DocumentLines": {
+                "ItemCode": "01/EF0211/6-",
+                "ItemDescription": "ADVANTAGE K",
+                "ShipDate": "2022-08-16",
+                "Quantity": 5.0,
+                "Price": 158.0,
+                "PriceAfterVAT": 189.6,
+                "Currency": "MAD",
+                "WarehouseCode": "MAR01",
+                "Rate": 0.0,
+                "BarCode": "4061622802225",
+                "GrossPrice": 189.6,
+                "GrossTotal": 948.0,
+                "U_RRP": 0.0,
+                "U_Article": "01-EF0211",
+                "U_JumiaSKU": null,
+                "U_FOC": "No",
+                "UnitsOfMeasurment": 1.0
+            }
+        },
+        {
+            "PurchaseDeliveryNotes": {
+                "DocEntry": 39,
+                "DocNum": 1000039,
+                "CreationDate": "2023-06-14",
+                "CardCode": "VL-0005",
+                "CardName": "Common Project Trading DMCC",
+                "DocCurrency": "MAD",
+                "DocRate": 1.0,
+                "NumAtCard": "IM2022/007",
+                "Reference1": "1000039",
+                "Comments": "Based On Purchase Orders 1000008.",
+                "JournalMemo": "Goods Receipt PO - VL-0005"
+            },
+            "PurchaseDeliveryNotes/DocumentLines": {
+                "ItemCode": "01/EF0222/1",
+                "ItemDescription": "ADVANTAGE C",
+                "ShipDate": "2022-08-16",
+                "Quantity": 3.0,
+                "Price": 158.0,
+                "PriceAfterVAT": 189.6,
+                "Currency": "MAD",
+                "WarehouseCode": "MAR01",
+                "Rate": 0.0,
+                "BarCode": "4061622784842",
+                "GrossPrice": 189.6,
+                "GrossTotal": 568.8,
+                "U_RRP": 0.0,
+                "U_Article": "01-EF0222",
+                "U_JumiaSKU": null,
+                "U_FOC": "No",
+                "UnitsOfMeasurment": 1.0
+            }
+        },
+        {
+            "PurchaseDeliveryNotes": {
+                "DocEntry": 39,
+                "DocNum": 1000039,
+                "CreationDate": "2023-06-14",
+                "CardCode": "VL-0005",
+                "CardName": "Common Project Trading DMCC",
+                "DocCurrency": "MAD",
+                "DocRate": 1.0,
+                "NumAtCard": "IM2022/007",
+                "Reference1": "1000039",
+                "Comments": "Based On Purchase Orders 1000008.",
+                "JournalMemo": "Goods Receipt PO - VL-0005"
+            },
+            "PurchaseDeliveryNotes/DocumentLines": {
+                "ItemCode": "01/EF0222/1-",
+                "ItemDescription": "ADVANTAGE C",
+                "ShipDate": "2022-08-16",
+                "Quantity": 1.0,
+                "Price": 158.0,
+                "PriceAfterVAT": 189.6,
+                "Currency": "MAD",
+                "WarehouseCode": "MAR01",
+                "Rate": 0.0,
+                "BarCode": "4061622784828",
+                "GrossPrice": 189.6,
+                "GrossTotal": 189.6,
+                "U_RRP": 0.0,
+                "U_Article": "01-EF0222",
+                "U_JumiaSKU": null,
+                "U_FOC": "No",
+                "UnitsOfMeasurment": 1.0
+            }
+        },
+        {
+            "PurchaseDeliveryNotes": {
+                "DocEntry": 39,
+                "DocNum": 1000039,
+                "CreationDate": "2023-06-14",
+                "CardCode": "VL-0005",
+                "CardName": "Common Project Trading DMCC",
+                "DocCurrency": "MAD",
+                "DocRate": 1.0,
+                "NumAtCard": "IM2022/007",
+                "Reference1": "1000039",
+                "Comments": "Based On Purchase Orders 1000008.",
+                "JournalMemo": "Goods Receipt PO - VL-0005"
+            },
+            "PurchaseDeliveryNotes/DocumentLines": {
+                "ItemCode": "01/EF0222/11K",
+                "ItemDescription": "ADVANTAGE C",
+                "ShipDate": "2022-08-16",
+                "Quantity": 8.0,
+                "Price": 158.0,
+                "PriceAfterVAT": 189.6,
+                "Currency": "MAD",
+                "WarehouseCode": "MAR01",
+                "Rate": 0.0,
+                "BarCode": "4061622784804",
+                "GrossPrice": 189.6,
+                "GrossTotal": 1516.8,
+                "U_RRP": 0.0,
+                "U_Article": "01-EF0222",
+                "U_JumiaSKU": null,
+                "U_FOC": "No",
+                "UnitsOfMeasurment": 1.0
+            }
+        },
+        {
+            "PurchaseDeliveryNotes": {
+                "DocEntry": 39,
+                "DocNum": 1000039,
+                "CreationDate": "2023-06-14",
+                "CardCode": "VL-0005",
+                "CardName": "Common Project Trading DMCC",
+                "DocCurrency": "MAD",
+                "DocRate": 1.0,
+                "NumAtCard": "IM2022/007",
+                "Reference1": "1000039",
+                "Comments": "Based On Purchase Orders 1000008.",
+                "JournalMemo": "Goods Receipt PO - VL-0005"
+            },
+            "PurchaseDeliveryNotes/DocumentLines": {
+                "ItemCode": "01/EF0222/11-K",
+                "ItemDescription": "ADVANTAGE C",
+                "ShipDate": "2022-08-16",
+                "Quantity": 2.0,
+                "Price": 158.0,
+                "PriceAfterVAT": 189.6,
+                "Currency": "MAD",
+                "WarehouseCode": "MAR01",
+                "Rate": 0.0,
+                "BarCode": "4061622784811",
+                "GrossPrice": 189.6,
+                "GrossTotal": 379.2,
+                "U_RRP": 0.0,
+                "U_Article": "01-EF0222",
+                "U_JumiaSKU": null,
+                "U_FOC": "No",
+                "UnitsOfMeasurment": 1.0
+            }
+        }
+    ]
+}

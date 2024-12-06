@@ -1,0 +1,39 @@
+{
+    "odata.metadata": "$metadata#Collection(Edm.ComplexType)",
+    "value": [
+        {
+            "PurchaseDeliveryNotes": {
+                "DocEntry": 45,
+                "DocNum": 1000045,
+                "CreationDate": "2023-08-18",
+                "CardCode": "VL-0002",
+                "CardName": "adidas Morocco LLC",
+                "DocCurrency": "MAD",
+                "DocRate": 1.0,
+                "NumAtCard": null,
+                "Reference1": "1000045",
+                "Comments": "Based On Purchase Orders 1000011.",
+                "JournalMemo": "Goods Receipt PO - VL-0002"
+            },
+            "PurchaseDeliveryNotes/DocumentLines": {
+                "ItemCode": "01/GZ3434/3-",
+                "ItemDescription": "Tensaur Run 2.0 CF K",
+                "ShipDate": "2022-11-09",
+                "Quantity": 1.0,
+                "Price": 1.0,
+                "PriceAfterVAT": 1.2,
+                "Currency": "MAD",
+                "WarehouseCode": "01",
+                "Rate": 0.0,
+                "BarCode": "4065418719407",
+                "GrossPrice": 1.2,
+                "GrossTotal": 1.2,
+                "U_RRP": null,
+                "U_Article": null,
+                "U_JumiaSKU": null,
+                "U_FOC": "No",
+                "UnitsOfMeasurment": 1.0
+            }
+        }
+    ]
+}
