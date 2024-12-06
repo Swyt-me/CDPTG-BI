@@ -1,0 +1,308 @@
+{
+	"info": {
+		"_postman_id": "12ea9734-8776-45ac-8050-8c9c5b277950",
+		"name": "Jumia",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "37188540"
+	},
+	"item": [
+		{
+			"name": "https://vendor-api.jumia.com/token",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "client_id",
+							"value": "a83da744-16b5-4fb0-ad19-98c39a6baf3c",
+							"type": "text"
+						},
+						{
+							"key": "grant_type",
+							"value": "refresh_token",
+							"type": "text"
+						},
+						{
+							"key": "refresh_token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICIyYTVmOTE3Zi1jNDRlLTQ3MWEtYTRiZC03NDE1NWU1ODYwZGIifQ.eyJqdGkiOiI2M2RlNTc5Yi02OTVmLTQwOTYtYTQ3NC1jNGZjZTgyYmEwNDciLCJleHAiOjE3NTY0NjE5MTMsIm5iZiI6MCwiaWF0IjoxNzI0OTI1OTEzLCJpc3MiOiJodHRwczovL3ZlbmRvci1hcGkuanVtaWEuY29tL2F1dGgvcmVhbG1zL2FjbCIsImF1ZCI6Imh0dHBzOi8vdmVuZG9yLWFwaS5qdW1pYS5jb20vYXV0aC9yZWFsbXMvYWNsIiwic3ViIjoiZTNkMWUyNzYtM2QyYi00MjNiLWEzNzItNjcwN2FiZTc0YmVhIiwidHlwIjoiUmVmcmVzaCIsImF6cCI6ImE4M2RhNzQ0LTE2YjUtNGZiMC1hZDE5LTk4YzM5YTZiYWYzYyIsImF1dGhfdGltZSI6MCwic2Vzc2lvbl9zdGF0ZSI6IjBmZTM4MGVmLTkzMjUtNDk2YS1iOTdlLTZhNGNiYTUyMjIyNSIsInNjb3BlIjoicHJvZmlsZSBlbWFpbCJ9.ZpXewJfMo433vUstwiNbJjzdAqLuBNeZx-fW4bEMJDI",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://vendor-api.jumia.com/token",
+					"protocol": "https",
+					"host": [
+						"vendor-api",
+						"jumia",
+						"com"
+					],
+					"path": [
+						"token"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Orders",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJHNGFfV2tmeGRzSC0tVzJCUGRaclZuSmxFN1Zya29HaVRDUVVjczMxX2hFIn0.eyJqdGkiOiI3OWVkNTZjNy0xNDQ5LTRhM2QtOGM0My0yNWQwMDNhMDYxN2MiLCJleHAiOjE3MjUwNzExODcsIm5iZiI6MCwiaWF0IjoxNzI1MDI3OTg3LCJpc3MiOiJodHRwczovL3ZlbmRvci1hcGkuanVtaWEuY29tL2F1dGgvcmVhbG1zL2FjbCIsInN1YiI6ImUzZDFlMjc2LTNkMmItNDIzYi1hMzcyLTY3MDdhYmU3NGJlYSIsInR5cCI6IkJlYXJlciIsImF6cCI6ImE4M2RhNzQ0LTE2YjUtNGZiMC1hZDE5LTk4YzM5YTZiYWYzYyIsImF1dGhfdGltZSI6MCwic2Vzc2lvbl9zdGF0ZSI6IjBmZTM4MGVmLTkzMjUtNDk2YS1iOTdlLTZhNGNiYTUyMjIyNSIsImFjciI6IjEiLCJzY29wZSI6InByb2ZpbGUgZW1haWwiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwibmFtZSI6IkFiZHVsIFJhdWYgU2hhaWtoIiwicHJlZmVycmVkX3VzZXJuYW1lIjoiYS5zaGFpa2hAY3B0ZGcuY29tIiwiZ2l2ZW5fbmFtZSI6IkFiZHVsIFJhdWYiLCJsb2NhbGUiOiJlbiIsImZhbWlseV9uYW1lIjoiU2hhaWtoIiwiZW1haWwiOiJhLnNoYWlraEBjcHRkZy5jb20ifQ.FoUw8F5-Rat8Q6qVow7m-cj0kSqH-OcvsAubPDZ0V2u0ZgXci7JMT9b-xEYXwPHKMECoQxuDManEDYl3zcULeasSiCRrmxXpZaLBugP0eHGwRAY2FIVVnruuwOTeilIEbFSGS8d8qJNQQ3JEGUvRwNZL7I4VWUIFgx_6OChH0u5IV8Woti7C_kLMWftpITAaMy-YxkJDHbhxokIAig9yshC840czLJDM1jXjq3NfiUwpDl-VrTGULZ1oT36PNrgmIEr9qd5kBOXIVyr_SIEJSG9RCFGhjl5tl60VcpsYZjuRCvbyjWHkEM_5dTVYwsjixPYgUvOU4VK-CXqbCLvmXQ",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://vendor-api.jumia.com/orders/",
+					"protocol": "https",
+					"host": [
+						"vendor-api",
+						"jumia",
+						"com"
+					],
+					"path": [
+						"orders",
+						""
+					]
+				},
+				"description": "Generated from cURL: curl --request GET \\\r\n  --url https://vendor-api-staging.jumia.com/orders \\\r\n  --header 'Authorization: Bearer '"
+			},
+			"response": []
+		},
+		{
+			"name": "Products",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer"
+					}
+				],
+				"url": {
+					"raw": "https://vendor-api-staging.jumia.com/catalog/products?token=string&size=10&sids=0&categoryCode=0&createdAtFrom=2020-09-15&createdAtTo=2020-09-15&sellerSku=string&shopId=497f6eca-6276-4993-bfeb-53cbbbba6f08",
+					"protocol": "https",
+					"host": [
+						"vendor-api-staging",
+						"jumia",
+						"com"
+					],
+					"path": [
+						"catalog",
+						"products"
+					],
+					"query": [
+						{
+							"key": "token",
+							"value": "string"
+						},
+						{
+							"key": "size",
+							"value": "10"
+						},
+						{
+							"key": "sids",
+							"value": "0"
+						},
+						{
+							"key": "categoryCode",
+							"value": "0"
+						},
+						{
+							"key": "createdAtFrom",
+							"value": "2020-09-15"
+						},
+						{
+							"key": "createdAtTo",
+							"value": "2020-09-15"
+						},
+						{
+							"key": "sellerSku",
+							"value": "string"
+						},
+						{
+							"key": "shopId",
+							"value": "497f6eca-6276-4993-bfeb-53cbbbba6f08"
+						}
+					]
+				},
+				"description": "Generated from cURL: curl -i -X GET \\\r\n    'https://vendor-api-staging.jumia.com/catalog/products?token=string&size=10&sids=0&categoryCode=0&createdAtFrom=2020-09-15&createdAtTo=2020-09-15&sellerSku=string&shopId=497f6eca-6276-4993-bfeb-53cbbbba6f08' \\\r\n    -H 'Authorization: Bearer '"
+			},
+			"response": []
+		},
+		{
+			"name": "Stock",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer"
+					}
+				],
+				"url": {
+					"raw": "https://vendor-api-staging.jumia.com/catalog/stock?token=string&size=10&productSids=0",
+					"protocol": "https",
+					"host": [
+						"vendor-api-staging",
+						"jumia",
+						"com"
+					],
+					"path": [
+						"catalog",
+						"stock"
+					],
+					"query": [
+						{
+							"key": "token",
+							"value": "string"
+						},
+						{
+							"key": "size",
+							"value": "10"
+						},
+						{
+							"key": "productSids",
+							"value": "0"
+						}
+					]
+				},
+				"description": "Generated from cURL: curl -i -X GET \\\r\n    'https://vendor-api-staging.jumia.com/catalog/stock?token=string&size=10&productSids=0' \\\r\n    -H 'Authorization: Bearer '"
+			},
+			"response": []
+		},
+		{
+			"name": "Brand",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer"
+					}
+				],
+				"url": {
+					"raw": "https://vendor-api-staging.jumia.com/catalog/brands?page=1",
+					"protocol": "https",
+					"host": [
+						"vendor-api-staging",
+						"jumia",
+						"com"
+					],
+					"path": [
+						"catalog",
+						"brands"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						}
+					]
+				},
+				"description": "Generated from cURL: curl -i -X GET \\\r\n    'https://vendor-api-staging.jumia.com/catalog/brands?page=1' \\\r\n    -H 'Authorization: Bearer '"
+			},
+			"response": []
+		},
+		{
+			"name": "Attribute",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer"
+					}
+				],
+				"url": {
+					"raw": "https://vendor-api.jumia.com/catalog/attribute-sets/{id}",
+					"protocol": "https",
+					"host": [
+						"vendor-api",
+						"jumia",
+						"com"
+					],
+					"path": [
+						"catalog",
+						"attribute-sets",
+						"{id}"
+					]
+				},
+				"description": "Generated from cURL: curl -i -X GET \\\r\n    'https://vendor-api-staging.jumia.com/catalog/attribute-sets/{id}' \\\r\n    -H 'Authorization: Bearer '"
+			},
+			"response": []
+		},
+		{
+			"name": "Shops",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer"
+					}
+				],
+				"url": {
+					"raw": "https://vendor-api.jumia.com/shops",
+					"protocol": "https",
+					"host": [
+						"vendor-api",
+						"jumia",
+						"com"
+					],
+					"path": [
+						"shops"
+					]
+				},
+				"description": "Generated from cURL: curl -i -X GET \\\r\n    'https://vendor-api-staging.jumia.com/shops' \\\r\n    -H 'Authorization: Bearer '"
+			},
+			"response": []
+		},
+		{
+			"name": "Categories",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer"
+					}
+				],
+				"url": {
+					"raw": "https://vendor-api-staging.jumia.com/catalog/categories?page=1&attributeSetName=string",
+					"protocol": "https",
+					"host": [
+						"vendor-api-staging",
+						"jumia",
+						"com"
+					],
+					"path": [
+						"catalog",
+						"categories"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "attributeSetName",
+							"value": "string"
+						}
+					]
+				},
+				"description": "Generated from cURL: curl -i -X GET \\\r\n    'https://vendor-api-staging.jumia.com/catalog/categories?page=1&attributeSetName=string' \\\r\n    -H 'Authorization: Bearer '"
+			},
+			"response": []
+		}
+	]
+}

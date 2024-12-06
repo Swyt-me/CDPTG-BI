@@ -1,0 +1,540 @@
+{
+	"info": {
+		"_postman_id": "a47467e2-2db5-4f28-96e4-516c5813d797",
+		"name": "SAP API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "37188540"
+	},
+	"item": [
+		{
+			"name": "Login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"CompanyDB\": \"NGA\",\r\n    \"Password\": \"Super@321\",\r\n    \"UserName\": \"manager\"\r\n}\r\n"
+				},
+				"url": {
+					"raw": "https://c20988hs01p01.cloudiax.com:50000/b1s/v1/Login/",
+					"protocol": "https",
+					"host": [
+						"c20988hs01p01",
+						"cloudiax",
+						"com"
+					],
+					"port": "50000",
+					"path": [
+						"b1s",
+						"v1",
+						"Login",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Orders",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Cookie",
+						"value": "B1SESSION=0e737d7a-9429-11ef-8000-fa163e6a32ef; ROUTEID=.node6;clxservice=40834453311.3450350304.1822273024",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Accept-Encoding",
+						"value": "gzip, deflate, br",
+						"type": "text"
+					},
+					{
+						"key": "Connection",
+						"value": "keep-alive",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://c20988hs01p01.cloudiax.com:50000/b1s/v1/Orders",
+					"protocol": "https",
+					"host": [
+						"c20988hs01p01",
+						"cloudiax",
+						"com"
+					],
+					"port": "50000",
+					"path": [
+						"b1s",
+						"v1",
+						"Orders"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Item",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Cookie",
+						"value": "B1SESSION=2d0ad616-7d6d-11ef-8000-fa163e6a32ef; ROUTEID=.node6;clxservice=40834453311.3450350304.1822273024",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Accept-Encoding",
+						"value": "gzip, deflate, br",
+						"type": "text"
+					},
+					{
+						"key": "Connection",
+						"value": "keep-alive",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://c20988hs01p01.cloudiax.com:50000/b1s/v1/Items",
+					"protocol": "https",
+					"host": [
+						"c20988hs01p01",
+						"cloudiax",
+						"com"
+					],
+					"port": "50000",
+					"path": [
+						"b1s",
+						"v1",
+						"Items"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Item Cost Price Details Filtered",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Cookie",
+						"value": "B1SESSION=5acd789e-a17e-11ef-8000-fa163e6a32ef; ROUTEID=.node6;clxservice=40834453311.3450350304.1822273024",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Accept-Encoding",
+						"value": "gzip, deflate, br",
+						"type": "text"
+					},
+					{
+						"key": "Connection",
+						"value": "keep-alive",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://c20988hs01p01.cloudiax.com:50000/b1s/v1/view.svc/GetItemCostInDetailB1SLQuery?$filter=(ItemCode eq '01/DV2905/146')&$select=ItemCode,Warehouse,CalcPrice,TransValue,Currency,Rate,DocDate,TransType",
+					"protocol": "https",
+					"host": [
+						"c20988hs01p01",
+						"cloudiax",
+						"com"
+					],
+					"port": "50000",
+					"path": [
+						"b1s",
+						"v1",
+						"view.svc",
+						"GetItemCostInDetailB1SLQuery"
+					],
+					"query": [
+						{
+							"key": "$filter",
+							"value": "(ItemCode eq '01/DV2905/146')"
+						},
+						{
+							"key": "$select",
+							"value": "ItemCode,Warehouse,CalcPrice,TransValue,Currency,Rate,DocDate,TransType"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Item Cost Price Details All Fields",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Cookie",
+						"value": "B1SESSION=2934075a-a1b8-11ef-8000-fa163e6a32ef; ROUTEID=.node6;clxservice=40834453311.3450350304.1822273024",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Accept-Encoding",
+						"value": "gzip, deflate, br",
+						"type": "text"
+					},
+					{
+						"key": "Connection",
+						"value": "keep-alive",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://c20988hs01p01.cloudiax.com:50000/b1s/v1/view.svc/GetItemCostInDetailB1SLQuery?$filter=( DocDate eq '2024-11-12')",
+					"protocol": "https",
+					"host": [
+						"c20988hs01p01",
+						"cloudiax",
+						"com"
+					],
+					"port": "50000",
+					"path": [
+						"b1s",
+						"v1",
+						"view.svc",
+						"GetItemCostInDetailB1SLQuery"
+					],
+					"query": [
+						{
+							"key": "$filter",
+							"value": "( DocDate eq '2024-11-12')"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Item Cost Price Details Summary",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Cookie",
+						"value": "B1SESSION=98fd1184-a01a-11ef-8002-fa163e6a32ef; ROUTEID=.node6;clxservice=40834453311.3450350304.1822273024",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Accept-Encoding",
+						"value": "gzip, deflate, br",
+						"type": "text"
+					},
+					{
+						"key": "Connection",
+						"value": "keep-alive",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://c20988hs01p01.cloudiax.com:50000/b1s/v1/view.svc/GetItemCostB1SLQuery?$filter=(ItemCode eq '01/DV2905/146')&$select=ItemCode,Warehouse,CalcPrice,TransValue,Currency,Rate",
+					"protocol": "https",
+					"host": [
+						"c20988hs01p01",
+						"cloudiax",
+						"com"
+					],
+					"port": "50000",
+					"path": [
+						"b1s",
+						"v1",
+						"view.svc",
+						"GetItemCostB1SLQuery"
+					],
+					"query": [
+						{
+							"key": "$filter",
+							"value": "(ItemCode eq '01/DV2905/146')"
+						},
+						{
+							"key": "$select",
+							"value": "ItemCode,Warehouse,CalcPrice,TransValue,Currency,Rate"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get LandedCosts",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Cookie",
+						"value": "B1SESSION=708d6590-7a3c-11ef-8000-fa163e6a32ef; ROUTEID=.node6;clxservice=40834453311.3450350304.1822273024",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Accept-Encoding",
+						"value": "gzip, deflate, br",
+						"type": "text"
+					},
+					{
+						"key": "Connection",
+						"value": "keep-alive",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://c20988hs01p01.cloudiax.com:50000/b1s/v1/Orders",
+					"protocol": "https",
+					"host": [
+						"c20988hs01p01",
+						"cloudiax",
+						"com"
+					],
+					"port": "50000",
+					"path": [
+						"b1s",
+						"v1",
+						"Orders"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Invoices",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Cookie",
+						"value": "B1SESSION=708d6590-7a3c-11ef-8000-fa163e6a32ef; ROUTEID=.node6;clxservice=40834453311.3450350304.1822273024",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Accept-Encoding",
+						"value": "gzip, deflate, br",
+						"type": "text"
+					},
+					{
+						"key": "Connection",
+						"value": "keep-alive",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://c20988hs01p01.cloudiax.com:50000/b1s/v1/Orders",
+					"protocol": "https",
+					"host": [
+						"c20988hs01p01",
+						"cloudiax",
+						"com"
+					],
+					"port": "50000",
+					"path": [
+						"b1s",
+						"v1",
+						"Orders"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get PriceLists",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Cookie",
+						"value": "B1SESSION=e91f55f2-90ff-11ef-8000-fa163e6a32ef; ROUTEID=.node6;clxservice=40834453311.3450350304.1822273024",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Accept-Encoding",
+						"value": "gzip, deflate, br",
+						"type": "text"
+					},
+					{
+						"key": "Connection",
+						"value": "keep-alive",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://c20988hs01p01.cloudiax.com:50000/b1s/v1/PriceLists",
+					"protocol": "https",
+					"host": [
+						"c20988hs01p01",
+						"cloudiax",
+						"com"
+					],
+					"port": "50000",
+					"path": [
+						"b1s",
+						"v1",
+						"PriceLists"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get PurchaseDeliveryNotes",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Cookie",
+						"value": "B1SESSION=708d6590-7a3c-11ef-8000-fa163e6a32ef; ROUTEID=.node6;clxservice=40834453311.3450350304.1822273024",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Accept-Encoding",
+						"value": "gzip, deflate, br",
+						"type": "text"
+					},
+					{
+						"key": "Connection",
+						"value": "keep-alive",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://c20988hs01p01.cloudiax.com:50000/b1s/v1/Orders",
+					"protocol": "https",
+					"host": [
+						"c20988hs01p01",
+						"cloudiax",
+						"com"
+					],
+					"port": "50000",
+					"path": [
+						"b1s",
+						"v1",
+						"Orders"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get PurchaseDeliveryNotes Copy",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Cookie",
+						"value": "B1SESSION=ecddc488-af1f-11ef-8000-fa163e6a32ef; ROUTEID=.node6;clxservice=40834453311.3450350304.1822273024",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Accept-Encoding",
+						"value": "gzip, deflate, br",
+						"type": "text"
+					},
+					{
+						"key": "Connection",
+						"value": "keep-alive",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://c20988hs01p01.cloudiax.com:50000/b1s/v1/$crossjoin(PurchaseDeliveryNotes,PurchaseDeliveryNotes/DocumentLines)?$expand=PurchaseDeliveryNotes($select=DocEntry,DocNum,CreationDate,CardCode,CardName,DocCurrency,DocRate,NumAtCard,Reference1,Comments,JournalMemo),PurchaseDeliveryNotes/DocumentLines($select=ItemCode,ItemDescription,ShipDate,Quantity,Price,PriceAfterVAT,Currency,WarehouseCode,Rate,BarCode,GrossPrice,GrossTotal,U_RRP,U_Article,U_JumiaSKU,U_FOC,UnitsOfMeasurment)&$filter=PurchaseDeliveryNotes/DocEntry eq PurchaseDeliveryNotes/DocumentLines/DocEntry and PurchaseDeliveryNotes/CreationDate eq datetime'2024-11-14'",
+					"protocol": "https",
+					"host": [
+						"c20988hs01p01",
+						"cloudiax",
+						"com"
+					],
+					"port": "50000",
+					"path": [
+						"b1s",
+						"v1",
+						"$crossjoin(PurchaseDeliveryNotes,PurchaseDeliveryNotes",
+						"DocumentLines)"
+					],
+					"query": [
+						{
+							"key": "$expand",
+							"value": "PurchaseDeliveryNotes($select=DocEntry,DocNum,CreationDate,CardCode,CardName,DocCurrency,DocRate,NumAtCard,Reference1,Comments,JournalMemo),PurchaseDeliveryNotes/DocumentLines($select=ItemCode,ItemDescription,ShipDate,Quantity,Price,PriceAfterVAT,Currency,WarehouseCode,Rate,BarCode,GrossPrice,GrossTotal,U_RRP,U_Article,U_JumiaSKU,U_FOC,UnitsOfMeasurment)"
+						},
+						{
+							"key": "$filter",
+							"value": "PurchaseDeliveryNotes/DocEntry eq PurchaseDeliveryNotes/DocumentLines/DocEntry and PurchaseDeliveryNotes/CreationDate eq datetime'2024-11-14'"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "logout",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		}
+	]
+}

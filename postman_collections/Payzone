@@ -1,0 +1,169 @@
+{
+	"info": {
+		"_postman_id": "9c8a4959-9b79-48ba-8b4b-f59562324609",
+		"name": "Payzone",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "37188540"
+	},
+	"item": [
+		{
+			"name": "Get details by ID",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							"//message = X-CallerName + X-MerchantAccount + X-HMAC-Timestamp + path + body\r",
+							"var timestamp = Math.floor(new Date().getTime()/1000);\r",
+							"var path = pm.request.url.getPath();\r",
+							"var message = environment['caller'] + environment['merchant'] + timestamp + path + (pm.request.body.raw || \"\");\r",
+							"console.log(message);\r",
+							"var secret = environment['password'];\r",
+							"var signature = CryptoJS.HmacSHA256(message, secret).toString().toUpperCase();\r",
+							"console.log(signature);\r",
+							"pm.variables.set(\"timestamp\", timestamp);\r",
+							"pm.variables.set(\"signature\", signature);"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"// Define your payload object\r",
+							"var payload = {\r",
+							"    \"merchantAccount\": \"FREEDOM\",\r",
+							"    \"timestamp\": 1697549299,\r",
+							"    \"skin\": \"vps-1-vue\",\r",
+							"    \"customerId\": \"3nBsmz67l9RweJ1FK67yW9VjIatzE3\",\r",
+							"    \"customerName\": \"test\",\r",
+							"    \"customerCountry\": \"MA\",\r",
+							"    \"customerLocale\": \"fr_FR\",\r",
+							"    \"chargeId\": 1697549299,\r",
+							"    \"orderId\": 1697549299,\r",
+							"    \"currency\": \"MAD\",\r",
+							"    \"price\": \"1\",\r",
+							"    \"description\": \"Séance en ligne\",\r",
+							"    \"mode\": \"DEEP_LINK\",\r",
+							"    \"paymentMethod\": \"CREDIT_CARD\",\r",
+							"    \"showPaymentProfiles\": \"true\",\r",
+							"    \"successUrl\": \"http://91a5-102-53-10-153.ngrok-free.app/success\",\r",
+							"    \"failureUrl\": \"http://91a5-102-53-10-153.ngrok-free.app/failure\",\r",
+							"    \"callbackUrl\": \"https://4abf-102-53-10-153.ngrok-free.app/callback\",\r",
+							"    \"cancelUrl\": \"http://91a5-102-53-10-153.ngrok-free.app/cancel\"\r",
+							"};\r",
+							"\r",
+							"// Serialize the payload object to a JSON string\r",
+							"var jsonPayload = JSON.stringify(payload);\r",
+							"\r",
+							"// Calculate the signature (replace this with your actual signature generation logic)\r",
+							"var signature = 'example_signature'; // Replace with your actual signature\r",
+							"\r",
+							"// Set the request body as form data\r",
+							"pm.request.body = {\r",
+							"    mode: 'formdata',\r",
+							"    formdata: [\r",
+							"        { key: 'payload', value: jsonPayload },\r",
+							"        { key: 'signature', value: signature }\r",
+							"    ]\r",
+							"};\r",
+							"\r",
+							"// Set other necessary headers if needed\r",
+							"pm.request.headers.add({\r",
+							"    key: 'Content-Type',\r",
+							"    value: 'application/x-www-form-urlencoded'\r",
+							"});\r",
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "X-MerchantAccount",
+						"value": "{{merchant}}",
+						"type": "text"
+					},
+					{
+						"key": "X-CallerName",
+						"value": "{{caller}}",
+						"type": "text"
+					},
+					{
+						"key": "X-HMAC-Timestamp",
+						"value": "{{timestamp}}",
+						"type": "text"
+					},
+					{
+						"key": "X-HMAC-Signature",
+						"value": "{{signature}}",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://payment.payzone.ma/api/v3/charges",
+					"protocol": "https",
+					"host": [
+						"payment",
+						"payzone",
+						"ma"
+					],
+					"path": [
+						"api",
+						"v3",
+						"charges"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": null,
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					"//message = X-CallerName + X-MerchantAccount + X-HMAC-Timestamp + path + body",
+					"console.log(environment['caller']);",
+					"var timestamp = Math.floor(new Date().getTime()/1000);",
+					"var path = pm.request.url.getPath();",
+					"var message = environment['caller'] + environment['merchant'] + timestamp + path + (pm.request.body.raw || \"\");",
+					"console.log(message);",
+					"var secret = environment['password'];",
+					"var signature = CryptoJS.HmacSHA256(message, secret).toString().toUpperCase();",
+					"console.log(signature);",
+					"pm.variables.set(\"timestamp\", timestamp);",
+					"pm.variables.set(\"signature\", signature);"
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}
